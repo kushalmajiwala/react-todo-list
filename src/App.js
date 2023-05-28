@@ -1,6 +1,5 @@
 import { InputText } from 'primereact/inputtext';
 import { Tooltip } from 'primereact/tooltip';
-
 import './style.css';
 
 function App() {
@@ -20,15 +19,12 @@ function App() {
           </span>
         </div>
         <div className='listContent'>
-          {/* <span className='listItem p-input-icon-left'>
-            <span className='nameContainer p-input-icon-left'>Mango</span>
-            <span className='btnContainer p-input-icon-left'>
-              <i class="bi bi-pencil-square editIcon"></i><i class="bi bi-trash3-fill deleteIcon"></i>
-            </span>
-          </span><br />
-          <span className='listItem p-input-icon-left' >
+          <div className='listItem'>
+    
+          </div>
+          <div className='listItem'>
 
-          </span> */}
+          </div>
         </div>
         <button className="checkbtn">CHECK LIST</button>
       </div>
