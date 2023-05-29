@@ -60,12 +60,11 @@
 .listContent {
     width: 100%;
     margin-top: 2%;
-    text-align: center;
 }
 
 .listItem {
     background-color: #6523FA;
-    width: 50vh;
+    width: 30vw;
     height: 40px;
     margin-top: 1%;
     border-radius: 5px;
@@ -73,3 +72,27 @@
     margin-right: auto;
 }
 
+.inputField {
+    width: 30vw;
+}
+
+@media only screen and (max-width: 950px) {
+    .inputField {
+        width: 60vw;
+    }
+    .listItem {
+        width: 60vw;
+    }
+}
+@media only screen and (max-width: 420px) {
+    .inputField {
+        width: 80vw;
+    }
+    .listItem {
+        width: 80vw;
+        margin-top: 2%;
+    }
+    .listContent {
+        margin-top: 3%;
+    }
+}

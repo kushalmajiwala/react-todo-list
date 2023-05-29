@@ -11,7 +11,7 @@ function App() {
       <p className="heading"><i class="bi bi-fire fireIcon"></i> Add your list here <i class="bi bi-fire fireIcon"></i></p><br />
       <div className='list-container'>
         <div>
-          <span className="p-input-icon-left p-input-icon-right" style={{ width: '50vh' }}>
+          <span className="p-input-icon-left p-input-icon-right inputField">
             <i class="bi bi-pencil-fill penIcon"></i>
             <InputText placeholder="Add Item" style={{ width: '100%' }} />
             <i class="pi pi-plus plusIcon addItem" data-pr-tooltip='Add Item' data-pr-position="right"></i>
@@ -20,7 +20,7 @@ function App() {
         </div>
         <div className='listContent'>
           <div className='listItem'>
-    
+
           </div>
           <div className='listItem'>
 
