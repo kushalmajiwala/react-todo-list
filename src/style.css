@@ -56,6 +56,10 @@
     border: none;
     border-radius: 5px;
 }
+.checkbtn:hover {
+    background-color: rgb(206, 225, 241);
+    color: black;
+}
 
 .listContent {
     width: 100%;
@@ -77,9 +81,10 @@
     width: 30vw;
 }
 .listName {
-    width: 30%;
+    width: 70%;
     height: 45px;
-    text-align: center;
+    text-align: left;
+    margin-left: 5%;
     font-size: 20px;
     line-height: 42px;
     background-color: #6523FA;
@@ -87,7 +92,7 @@
     border-bottom-left-radius: 5px;
 }
 .listIcons {
-    width: 70%;
+    width: 30%;
     height: 45px;
     background-color: #6523FA;  
     border-top-right-radius: 5px;
@@ -100,10 +105,22 @@
 .editIcon {
     margin-top: 0.5%;
 }
+.performEditIcon {
+    margin-left: 5%;
+    background-color: white;
+    cursor: pointer;
+    font-weight: 900;
+}
 .editIcon, .deleteIcon {
     background-color: #6523FA;
-    margin-right: 5%;
+    margin-right: 10%;
     cursor: pointer;
+}
+.editIcon:hover {
+    color: rgb(153, 255, 0);
+}
+.deleteIcon:hover {
+    color: red;
 }
 
 @media only screen and (max-width: 950px) {
@@ -112,6 +129,10 @@
     }
     .listItem {
         width: 60vw;
+    }
+    .tooltipVis
+    {
+        display: none;
     }
 }
 @media only screen and (max-width: 420px) {
