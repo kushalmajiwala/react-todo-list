@@ -20,19 +20,20 @@ function App() {
         </div>
         <div className='listContent'>
           <div className='listItem'>
-            <span className='listName'>mango</span>
-            <span className='listIcons'>
+            <div className='listName'>mango</div>
+            <div className='listIcons'>
               <i class="bi bi-pencil-square editIcon"></i>
               <i class="bi bi-trash3-fill deleteIcon"></i>
-            </span>
+            </div>
           </div>
           <div className='listItem'>
-            <span className='listName'>banana</span>
-            <span className='listIcons'>
+            <div className='listName'>banana</div>
+            <div className='listIcons'>
               <i class="bi bi-pencil-square editIcon"></i>
               <i class="bi bi-trash3-fill deleteIcon"></i>
-            </span>
+            </div>
           </div>
+         
         </div>
         <button className="checkbtn">CHECK LIST</button>
       </div>
