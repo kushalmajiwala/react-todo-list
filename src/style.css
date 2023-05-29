@@ -65,15 +65,45 @@
 .listItem {
     background-color: #6523FA;
     width: 30vw;
-    height: 40px;
+    height: 45px;
     margin-top: 1%;
     border-radius: 5px;
     margin-left: auto;
     margin-right: auto;
+    display: flex;
 }
 
 .inputField {
     width: 30vw;
+}
+.listName {
+    width: 30%;
+    height: 45px;
+    text-align: center;
+    font-size: 20px;
+    line-height: 42px;
+    background-color: #6523FA;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+.listIcons {
+    width: 70%;
+    height: 45px;
+    background-color: #6523FA;  
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    line-height: 45px;
+    font-size: 20px;
+    display: flex;
+    justify-content: right;
+}
+.editIcon {
+    margin-top: 0.5%;
+}
+.editIcon, .deleteIcon {
+    background-color: #6523FA;
+    margin-right: 5%;
+    cursor: pointer;
 }
 
 @media only screen and (max-width: 950px) {
