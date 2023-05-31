@@ -58,7 +58,10 @@
 }
 .checkbtn:hover {
     background-color: rgb(206, 225, 241);
-    color: black;
+}
+.checkbtn:hover::before {
+    content: "REMOVE ";
+    color: #8c8c8c;
 }
 
 .listContent {
